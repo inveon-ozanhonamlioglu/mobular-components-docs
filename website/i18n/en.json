@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Mobular Components Documents",
     "docs": {
       "ComponentButton": {
         "title": "Generic Components",
@@ -30,7 +30,6 @@
     "links": {
       "Docs": "Docs",
       "API": "API",
-      "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
