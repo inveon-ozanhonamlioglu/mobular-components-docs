@@ -1,0 +1,9 @@
+{
+  "docs": {
+    "Generic Components": ["ComponentButton"],
+    "Product Components": ["ProductListSwiper", "ProductGrid"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
