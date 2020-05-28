@@ -19,6 +19,8 @@ Like as ProductGrid Buttons, ProductListSwiper Buttons...
   },
   "rightIcon": "arrow-right",
   "rightIconFamily": "Ionicons",
+  "letfIcon": "arrow-left",
+  "leftIconFamily": "FontAwesome",
   "onPress": {
     "type": "navigate",
     "route": "productlist",
@@ -42,20 +44,16 @@ Like as ProductGrid Buttons, ProductListSwiper Buttons...
 ```json
 {
   "container": {
-    //component container style
+    //button container style
   },
-  "itemStyle": {
-    //item container style
-    "flexDirection": "row"
+  "textStyle": {
+    //text style
   },
-  "itemTextStyle": {
-    //item text style
+  "leftIconStyle": {
+    //left icon style
   },
-  "itemLeftIconStyle": {
-    //item left icon style
+  "rightIconStyle": {
+    //right icon style
   },
-  "itemRightIconStyle": {
-    //item right icon style
-  }
 }
 ```
