@@ -16,7 +16,7 @@ HeaderImageCentered is a multifunctional header component.
 {
   //out props
   "imageUrl": "https://example.com/logo.png",
-  "headerButtonsRight": [
+  "rightButtons": [
     {
       "text": {
         "en": "",
@@ -30,8 +30,8 @@ HeaderImageCentered is a multifunctional header component.
       }
     }
   ],
-  "headerButtonsLeft": [
-    //can be same to headerButtonsRight
+  "leftButtons": [
+    //can be same to rightButtons
   ],
   "styles": {}
 }
@@ -39,7 +39,7 @@ HeaderImageCentered is a multifunctional header component.
 
 ## Buttons
 
-headerButtonsRight and headerButtonsLeft uses array of [ComponentButton](ComponentButton)
+rightButtons and leftButtons uses array of [ComponentButton](ComponentButton)
 
 ## Styles
 
