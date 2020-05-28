@@ -1,6 +1,6 @@
 ---
 id: HeaderImageCentered
-title: Product Components
+title: Header Components
 sidebar_label: HeaderImageCentered
 ---
 
