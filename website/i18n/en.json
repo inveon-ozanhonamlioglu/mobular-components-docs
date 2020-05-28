@@ -19,7 +19,7 @@
         "title": "Fifth Document"
       },
       "HeaderImageCentered": {
-        "title": "Product Components",
+        "title": "Header Components",
         "sidebar_label": "HeaderImageCentered"
       },
       "ProductGrid": {
@@ -39,6 +39,7 @@
     "categories": {
       "Generic Components": "Generic Components",
       "Product Components": "Product Components",
+      "Header Components": "Header Components",
       "First Category": "First Category"
     }
   },
