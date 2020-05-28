@@ -37,6 +37,7 @@ Like as ProductGrid Buttons, ProductListSwiper Buttons...
     - `routeParams`: [Optional] route with params. e.g. { id: 15 }
   - settings: go to device native settings screen 
   - finish: close application
+  - openDrawer: open left drawer menu
 
 
 ## Styles
