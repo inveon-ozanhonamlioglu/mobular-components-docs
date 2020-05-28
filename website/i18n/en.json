@@ -22,6 +22,10 @@
         "title": "Product Components",
         "sidebar_label": "HeaderImageCentered"
       },
+      "ImageCarousel": {
+        "title": "Product Components",
+        "sidebar_label": "ImageCarousel"
+      },
       "ProductGrid": {
         "title": "Product Components",
         "sidebar_label": "ProductGrid"
