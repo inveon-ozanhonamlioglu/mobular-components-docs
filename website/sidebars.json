@@ -1,7 +1,8 @@
 {
   "docs": {
     "Generic Components": ["ComponentButton"],
-    "Product Components": ["ProductListSwiper", "ProductGrid", "HeaderImageCentered", "ImageCarousel"]
+    "Product Components": ["ProductListSwiper", "ProductGrid", "HeaderImageCentered"],
+    "Image Components": ["ImageCarousel"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

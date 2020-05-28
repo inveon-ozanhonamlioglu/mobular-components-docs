@@ -23,7 +23,7 @@
         "sidebar_label": "HeaderImageCentered"
       },
       "ImageCarousel": {
-        "title": "Product Components",
+        "title": "Image Components",
         "sidebar_label": "ImageCarousel"
       },
       "ProductGrid": {
@@ -43,6 +43,7 @@
     "categories": {
       "Generic Components": "Generic Components",
       "Product Components": "Product Components",
+      "Image Components": "Image Components",
       "First Category": "First Category"
     }
   },

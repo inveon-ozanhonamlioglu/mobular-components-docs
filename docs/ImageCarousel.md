@@ -1,6 +1,6 @@
 ---
 id: ImageCarousel
-title: Product Components
+title: Image Components
 sidebar_label: ImageCarousel
 ---
 
@@ -15,31 +15,37 @@ ImageCarousel is a images carousel component.
 ```json
 {
   //out props
-  "imageUrl": "https://example.com/logo.png",
-  "rightButtons": [
+  "images": [
     {
-      "text": {
-        "en": "",
-        "tr": ""
-      },
-      "rightIcon": "barcode",
-      "rightIconFamily": "Ionicons",
+      "url": "https://example.com/image1.jpg",
       "onPress": {
         "type": "navigate",
-        "route": "barcodescanner",
+        "route": "productlist",
+        "routeParams": { 
+          "campaignId": 10 
+        }
+      }
+    },
+    {
+      "url": "https://example.com/image2.jpg",
+      "onPress": {
+        "type": "url",
+        "url": "https://inveon.com"
       }
     }
   ],
-  "leftButtons": [
-    //can be same to rightButtons
-  ],
+  "dotsActiveColor": "#fff",
+  "dotsPassiveColor": "blue",
+  "dotsVisible": true,
+  "navigateButtonsVisible": true, // prev-next buttons visibility
+  "heightEqualToDeviceWidth": false, //component height will set to device width
+  "height": 200,
+  "width": "100%",
+  "navigateButtonsIconColor": "blue",
+  
   "styles": {}
 }
 ```
-
-## Buttons
-
-rightButtons and leftButtons uses array of [ComponentButton](ComponentButton)
 
 ## Styles
 
@@ -49,7 +55,14 @@ rightButtons and leftButtons uses array of [ComponentButton](ComponentButton)
     //component container style
   },
   "imageStyle": {
-    //image component style
-  }
+    //item image style
+  },
+  "dotsActiveStyle": {
+    //bottom dots active style
+  },
+  "dotsPassiveStyle": {
+    //bottom dots passive style
+  },
+
 }
 ```

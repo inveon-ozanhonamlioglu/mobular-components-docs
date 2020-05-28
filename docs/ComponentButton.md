@@ -38,6 +38,10 @@ Like as ProductGrid Buttons, ProductListSwiper Buttons...
   - settings: go to device native settings screen 
   - finish: close application
   - openDrawer: open left drawer menu
+  - url: go to URL in device internet browser
+    - `url`: [Required] 
+  - browser: go to URL in app browser
+    - `url`: [Required] 
 
 
 ## Styles
