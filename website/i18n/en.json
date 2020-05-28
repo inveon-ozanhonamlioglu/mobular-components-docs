@@ -18,6 +18,10 @@
       "doc5": {
         "title": "Fifth Document"
       },
+      "HeaderImageCentered": {
+        "title": "Product Components",
+        "sidebar_label": "HeaderImageCentered"
+      },
       "ProductGrid": {
         "title": "Product Components",
         "sidebar_label": "ProductGrid"
